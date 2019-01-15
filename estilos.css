@@ -14,7 +14,7 @@ body {
 }
 
 .nav1, .nav2 {
-    background-color:orangered;
+    background-color:skyblue;
 }
 
 .nav2 {
@@ -55,7 +55,7 @@ aside {
 }
 
 form {
-    background-color: orangered;
+    background-color: skyblue;
     height: 200px;
     margin: 20px;
     padding: 30px;
