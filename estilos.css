@@ -1,17 +1,72 @@
- a {
+body {
+    background-color: gray;
+}
+
+.articles {
+    background-color: white;
+    margin: 20px;
+    padding:10px;
+}
+
+.a {
     text-decoration: none;
     color: white;
 }
 
- .a, .b {
+.nav1, .nav2 {
     background-color:orangered;
 }
 
- .b {
+.nav2 {
     display: inline-block;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 15px 5px 15px;
 }
 
- .a {
+.nav1 {
    padding: 0px; 
+}
+
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:30px;
+}
+
+ul li{
+    list-style-type: none;
+    background-color: beige;
+}
+
+nav{
+    width:100%;
+}
+
+.articles{
+    width:70%;
+}
+
+aside {
+    width: 25%;
+    position: absolute;
+    top: 250px;
+    left: 750px;
+    height: 500px;
+    background-color: darkslategrey;
+}
+
+form {
+    background-color: orangered;
+    height: 200px;
+    margin: 20px;
+    padding: 30px;
+}
+
+aside, forma {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    color: white;
 }
